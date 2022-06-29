@@ -65,4 +65,4 @@ jobs:
       run:  kubectl apply -f service.yaml
       
     - name: Updating the image
-      run: kubectl set image deployments ecommerce-deployment ecommerce=ghcr.io/${{ github.actor }}/final_project_devops:latest6 -n practice
+      run: kubectl set image deployments ecommerce-deployment ecommerce=ghcr.io/${{ github.actor }}/final_project_devops:latest6 
